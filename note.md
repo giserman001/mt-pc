@@ -4,4 +4,4 @@
 3. vue SRR路由：pages文件夹下面每一个页面名字对应一个路由
 4. elementUI 表单支持多次验证 路径：pages/register.vue
 
-tips: 视频看到 8-2
+tips: 视频看到 8-6（结束）
