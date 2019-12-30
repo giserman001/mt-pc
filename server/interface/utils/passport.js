@@ -22,9 +22,9 @@ passport.use(new LocalStrategy(async (usename, password, done) => {
 
 // 用户每次进来通过session来验证
 passport.serializeUser((user, done) => {
-    done(null, user)
+  done(null, user)
 })
 passport.deserializeUser((user, done) => {
-    return done(null, user)
+  return done(null, user)
 })
 export default passport
